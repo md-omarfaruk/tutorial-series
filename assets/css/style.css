@@ -8,50 +8,60 @@
 }
 
 /* ---------------------Google-fonts-Css-Start-------------------------- */
-.hanken-grotesk{
+.hanken-grotesk {
   font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
 }
 
 /* ------------------------------Main-Styles------------------------ */
 /* ---------------------color------------------------ */
-.body-bg{
+.body-bg {
   background-color: #141924;
 }
-.left-column-bg{
+
+.left-column-bg {
   background-color: #181E2A;
 }
-.btn-bg{
-background-color: #334059;
+
+.btn-bg {
+  background-color: #334059;
 }
-.btn-bg:hover{
+
+.btn-bg:hover {
   background-color: #455878;
 }
-.content-bg{
+
+.content-bg {
   background-color: #1E2430;
 }
-.item-color{
+
+.item-color {
   color: white;
   background-color: #232c3d66;
 }
-.item-color:hover{
+
+.item-color:hover {
   color: white;
   background-color: #1E2430;
 }
-.text-color{
+
+.text-color {
   color: #bad9fc;
 }
-.small-text-color{
-  color: #bad9fcbf ;
+
+.small-text-color {
+  color: #bad9fcbf;
 }
 
 /* ------------------------contents------------------------ */
-.fill-current{
+.fill-current {
   fill: #ec454f;
 }
-.left-column-top-icons{
+
+.left-column-top-icons {
   font-size: 16px;
 }
+
 hr {
   height: 8px;
   background-color: #11141B;
@@ -59,16 +69,61 @@ hr {
   margin: 0;
   border: none;
 }
-.title-bar{
+
+.title-bar {
   overflow: hidden;
 }
-.title-bar img{
+
+.title-bar img {
   width: 75px;
   height: 106px;
   vertical-align: baseline;
   margin-left: -25px;
   object-fit: cover;
 }
-.title-bar div{
+
+.title-bar div {
   width: 75%;
+}
+
+button.accordion-button {
+  background-color: #181E2A !important;
+}
+.items-parent{
+  cursor: pointer;
+}
+.bi-caret-up-square-fill{
+  display: none;
+
+}
+.items-parent:hover>.bi-caret-up-square-fill{
+  display: in;
+}
+.bi-caret-up-square-fill::before {
+  content: "\f236";
+  color: #334059;
+  background-color: #bad9fc;
+  font-size: 26px;
+  border-radius: 10px;
+}
+.bi-caret-down-square-fill {
+  display: none;
+}
+.bi-caret-down-square-fill::before {
+  content: "\f22a";
+  color: #334059;
+  font-size: 26px;
+  background-color: #bad9fc;
+  border-radius: 10px;
+}
+
+.list-group-item small {
+  color: #93ACC9 !important;
+  font-size: 11px;
+}
+.list-group-numbered>.list-group-item::before {
+  content: counters(section, ".");
+}
+.list-group-item{
+  cursor: pointer;
 }
