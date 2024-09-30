@@ -52,3 +52,23 @@ background-color: #334059;
 .left-column-top-icons{
   font-size: 16px;
 }
+hr {
+  height: 8px;
+  background-color: #11141B;
+  border-radius: 5px;
+  margin: 0;
+  border: none;
+}
+.title-bar{
+  overflow: hidden;
+}
+.title-bar img{
+  width: 75px;
+  height: 106px;
+  vertical-align: baseline;
+  margin-left: -25px;
+  object-fit: cover;
+}
+.title-bar div{
+  width: 75%;
+}
