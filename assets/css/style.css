@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+/* ---------------------Google-fonts-Css-Start-------------------------- */
+.hanken-grotesk{
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+}
+
+/* ------------------------------Main-Styles------------------------ */
+.body-bg{
+  background-color: #141924;
+}
+.left-column-bg{
+  background-color: #181E2A;
+}
+.btn-bg{
+background-color: #334059;
+}
+.btn-bg:hover{
+  background-color: #455878;
+}
+.content-bg{
+  background-color: #1E2430;
+}
+.item-color{
+  color: white;
+  background-color: #232c3d66;
+}
+.item-color:hover{
+  color: white;
+  background-color: #1E2430;
+}
+.text-color{
+  color: #bad9fc;
+}
+.small-text-color{
+  color: #bad9fcbf ;
+}
